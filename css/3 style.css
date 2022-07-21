@@ -1,3 +1,51 @@
 body {
-    font-family: 'Lato', sans-serif;
+	font-family: "Lato", sans-serif;
+	width: 300px;
+	margin: 0 auto;
+	font-size: 1.2rem;
+    background-color: royalblue;
+}
+
+p {
+
+    letter-spacing: 2px;
+    word-spacing: 20px;
+    text-height: 200px;
+}
+
+a {
+	outline: none;
+	text-decoration: none;
+	padding: 2px 1px 0;
+}
+
+a:link {
+	color: #fff;
+}
+
+a:visited {
+	color: #fff;
+}
+
+a:focus {
+	color: #fff;
+}
+
+a:hover {
+    color: #fff;
+}
+
+a:active {
+	color: #fff;
+}
+
+.small {
+    text-transform: uppercase;
+}
+.big {
+    text-transform: lowercase;
+}
+
+.text {
+    text-transform: capitalize;
 }
