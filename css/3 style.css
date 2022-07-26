@@ -1,51 +1,30 @@
 body {
-	font-family: "Lato", sans-serif;
-	width: 300px;
-	margin: 0 auto;
-	font-size: 1.2rem;
-    background-color: royalblue;
+	font-family: "Comfortaa", cursive, sans-serif;
+	background-color: #333;
+	color: #fff;
+	font-size: 36px;
+	margin 5px;
+
+}
+
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+img {
+	width: 800px;
+	border-radius: 25px;
 }
 
 p {
+	color: lime;
+	}
 
-    letter-spacing: 2px;
-    word-spacing: 20px;
-    text-height: 200px;
-}
-
-a {
-	outline: none;
-	text-decoration: none;
-	padding: 2px 1px 0;
-}
-
-a:link {
-	color: #fff;
-}
-
-a:visited {
-	color: #fff;
-}
-
-a:focus {
-	color: #fff;
-}
-
-a:hover {
-    color: #fff;
-}
-
-a:active {
-	color: #fff;
-}
-
-.small {
-    text-transform: uppercase;
-}
-.big {
-    text-transform: lowercase;
-}
-
-.text {
-    text-transform: capitalize;
+span {
+	text-decoration: underline;
+	color: tomato;
 }
