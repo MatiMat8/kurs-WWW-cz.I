@@ -29,6 +29,6 @@ main + p {
 	text-transform: uppercase;
 }
 
-div > p
+/* div > p
 div + p
-div ~ p
+div ~ p */
